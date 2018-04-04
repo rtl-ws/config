@@ -111,3 +111,5 @@ alias gmod='git merge origin/development'
 export PATH="$HOME/miniconda3/bin:$PATH"
 
 source $ZSH/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+eval "$(pyenv init -)"
