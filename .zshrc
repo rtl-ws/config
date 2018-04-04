@@ -102,6 +102,12 @@ export PATH="/Users/Ryan/anaconda2/bin:$PATH"
 # Force tmux to use 256 color
 alias tmux='_zsh_tmux_plugin_run -2'
 
+# custom aliases
+alias gcd='git checkout development'
+alias grbd='git rebase development'
+alias gmud='git merge upstream/development'
+alias gmod='git merge origin/development'
+
 export PATH="$HOME/miniconda3/bin:$PATH"
 
 source $ZSH/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
